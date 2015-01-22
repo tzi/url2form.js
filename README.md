@@ -6,6 +6,8 @@ A JavaScript library to fill a form with the current url queries.
 It allows you to create JavaScript application with savable states without having a back-end.
 Start filling your form, validate, bookmark the generated URL, and you be able to go back to this specific state later.
 
+
+
 Example
 --------------
 
@@ -22,3 +24,11 @@ Example
 
 If the URI is "?myInput=myValue" the `input` will be valued with "myValue".
 Every time you click on validate, you create an URL to bookmark.
+
+
+
+Author & Community
+--------
+
+`url2form.js` is under [MIT License](http://opensource.org/licenses/MIT).<br>
+It was created & is maintained by [Thomas ZILLIOX](http://tzi.fr).
