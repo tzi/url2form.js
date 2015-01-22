@@ -27,6 +27,22 @@ Every time you click on validate, you create an URL to bookmark.
 
 
 
+How to Contribute
+--------
+
+### Get involved
+
+1. [Star](https://github.com/tzi/url2form.js/stargazers) the project!
+2. [Report a bug](https://github.com/tzi/url2form.js/issues/new) that you have found.
+3. Tweet and blog about `url2form.js` and [Let me know](https://twitter.com/iamtzi) about it.
+
+### Pull Requests
+
+Pull requests are highly appreciated.<br>
+Please review the [guidelines for contributing](https://github.com/tzi/url2form.js/blob/master/CONTRIBUTING.md) to go further.
+
+
+
 Author & Community
 --------
 
