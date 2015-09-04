@@ -8,8 +8,12 @@ Start filling your form, validate, bookmark the generated URL, and you be able t
 
 
 
-Example
+Quick start
 --------------
+
+```sh
+npm install url2form.js
+```
 
 ```js
 <form name="myFormName">
@@ -24,6 +28,13 @@ Example
 
 If the URI is "?myInput=myValue" the `input` will be valued with "myValue".
 Every time you click on validate, you create an URL to bookmark.
+
+
+
+Examples
+-------
+
+ * [Pajomatic](http://tut-tuuut.github.io/pajomatic/): Help for French parents who pay a nanny
 
 
 

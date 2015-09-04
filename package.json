@@ -1,0 +1,24 @@
+{
+  "name": "url2form.js",
+  "version": "1.0.0",
+  "description": "Fill a form with the current url queries",
+  "main": "url2form.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tzi/url2form.js.git"
+  },
+  "keywords": [
+    "form",
+    "url",
+    "query"
+  ],
+  "author": "Thomas ZILLIOX (http://tzi.fr)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tzi/url2form.js/issues"
+  },
+  "homepage": "https://github.com/tzi/url2form.js#readme"
+}
