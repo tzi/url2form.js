@@ -3,8 +3,8 @@ url2form.js
 
 A JavaScript library to fill a form with the current url queries.
 
-It allows you to create JavaScript application with savable states without having a back-end.
-Start filling your form, validate, bookmark the generated URL, and you be able to go back to this specific state later.
+It allows you to create JavaScript application with sharable states without having a back-end.
+Start filling your form, validate, bookmark the generated URL, and you'll be able to go back to this specific state later.
 
 
 
@@ -22,16 +22,16 @@ npm install url2form.js
 </form>
 
 <script>
-  url2form('myFormName');
+  url2form.init('myFormName');
 </script>
 ```
 
 If the URI is "?myInput=myValue" the `input` will be valued with "myValue".
-Every time you click on validate, you create an URL to bookmark.
+Every time you click on validate, you create a new URL to bookmark.
 
 
 
-Examples
+Projects using it
 -------
 
  * [Pajomatic](http://tut-tuuut.github.io/pajomatic/): Help for French parents who pay a nanny
@@ -46,11 +46,7 @@ How to Contribute
 1. [Star](https://github.com/tzi/url2form.js/stargazers) the project!
 2. [Report a bug](https://github.com/tzi/url2form.js/issues/new) that you have found.
 3. Tweet and blog about `url2form.js` and [Let me know](https://twitter.com/iamtzi) about it.
-
-### Pull Requests
-
-Pull requests are highly appreciated.<br>
-Please review the [guidelines for contributing](https://github.com/tzi/url2form.js/blob/master/CONTRIBUTING.md) to go further.
+4. [Pull requests](CONTRIBUTING.md) are also highly appreciated.
 
 
 
