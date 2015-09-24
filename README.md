@@ -15,7 +15,7 @@ Quick start
 npm install url2form.js
 ```
 
-```js
+```html
 <form name="myFormName">
   <input type="text" name="myInput" value="" />
   <button>Validate</button>
@@ -40,8 +40,6 @@ Projects using it
 
 How to Contribute
 --------
-
-### Get involved
 
 1. [Star](https://github.com/tzi/url2form.js/stargazers) the project!
 2. [Report a bug](https://github.com/tzi/url2form.js/issues/new) that you have found.
