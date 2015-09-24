@@ -1,6 +1,6 @@
 {
   "name": "url2form.js",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Fill a form with the current url queries",
   "main": "url2form.js",
   "scripts": {
