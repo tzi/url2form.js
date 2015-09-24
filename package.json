@@ -4,7 +4,7 @@
   "description": "Fill a form with the current url queries",
   "main": "build/url2form.js",
   "scripts": {
-    "build": "browserify ./src/url2form.js -s url2form -p deumdify > build/url2form.js && ccjs build/url2form.js > build/url2form.min.js",
+    "build": "browserify ./src/url2form.js -s url2form > build/url2form.js && ccjs build/url2form.js > build/url2form.min.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,7 +24,6 @@
   "homepage": "https://github.com/tzi/url2form.js#readme",
   "devDependencies": {
     "browserify": "9.0.3",
-    "deumdify": "1.1.0",
     "closurecompiler": "1.5.1"
   }
 }
