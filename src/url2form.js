@@ -1,10 +1,6 @@
-(function (root, factory) {
-    if (typeof define === 'function' && define.amd) {
-        define([], factory);
-    } else {
-        root.url2form = factory();
-    }
-}(this, function () {
+module.exports = url2form();
+
+function url2form() {
     'use strict';
 
     function getQueryList() {
@@ -24,10 +20,10 @@
     }
 
     function init(formName) {
-        if (typeof document.forms[formName] == "undefined") {
-            return false;
-        }
         var form = document.forms[formName];
+        if (!form) {
+            throw new DOMException('Unexisting form: ' + formName);
+        }
         var queryList = getQueryList();
         var query;
         for (var j = 0; j < queryList.length; j++) {
@@ -63,4 +59,4 @@
     return {
         init: init
     };
-}));
+}

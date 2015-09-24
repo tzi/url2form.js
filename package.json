@@ -2,8 +2,9 @@
   "name": "url2form.js",
   "version": "2.0.1",
   "description": "Fill a form with the current url queries",
-  "main": "url2form.js",
+  "main": "build/url2form.js",
   "scripts": {
+    "build": "browserify ./src/url2form.js -s url2form -p deumdify > build/url2form.js && ccjs build/url2form.js > build/url2form.min.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +21,10 @@
   "bugs": {
     "url": "https://github.com/tzi/url2form.js/issues"
   },
-  "homepage": "https://github.com/tzi/url2form.js#readme"
+  "homepage": "https://github.com/tzi/url2form.js#readme",
+  "devDependencies": {
+    "browserify": "9.0.3",
+    "deumdify": "1.1.0",
+    "closurecompiler": "1.5.1"
+  }
 }
