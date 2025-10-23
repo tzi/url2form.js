@@ -35,6 +35,9 @@ function url2form() {
                 if (input.tagName == "TEXTAREA") {
                     input.innerHTML = query.value;
                     break;
+                } else if (input.tagName == "SELECT") {
+                    input.value = query.value;
+                    break;
                 } else if (input.tagName == "INPUT") {
                     if (
                         input.type == "checkbox" ||
