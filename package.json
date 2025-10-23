@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/tzi/url2form.js#readme",
   "devDependencies": {
-    "browserify": "9.0.3",
+    "browserify": "^17.0.1",
     "minify": "^14.1.0"
   }
 }
